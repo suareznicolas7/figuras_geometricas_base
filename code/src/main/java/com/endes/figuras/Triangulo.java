@@ -1,22 +1,23 @@
 package com.endes.figuras;
 
 public class Triangulo extends FiguraGeometrica{
+	private double base;
+	private double altura;
 
-	public Triangulo(String nombre, String color) {
+	public Triangulo(String nombre, String color, double base, double altura) {
 		super(nombre, color);
-		// TODO Auto-generated constructor stub
+		this.base = base;
+		this.altura = altura;
 	}
 
 	@Override
 	public double area() {
-		// TODO Auto-generated method stub
-		return 0;
+		return (base * altura) / 2;
 	}
 
 	@Override
 	public double perimetro() {
-		// TODO Auto-generated method stub
-		return 0;
+		return 3 * base;
 	}
-
+	
 }
