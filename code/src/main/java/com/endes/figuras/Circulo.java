@@ -2,21 +2,22 @@ package com.endes.figuras;
 
 public class Circulo extends FiguraGeometrica  {
 
-	public Circulo(String nombre, String color) {
+	private double radio;
+	
+	public Circulo(String nombre, String color, double radio, Object centro) {
 		super(nombre, color);
-		// TODO Auto-generated constructor stub
+		this.radio = radio;
 	}
 
 	@Override
 	public double area() {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		return 2 * Math.PI * radio;
 	}
 
 	@Override
 	public double perimetro() {
-		// TODO Auto-generated method stub
-		return 0;
+		return (radio * radio) * Math.PI;
 	}
 
 }
