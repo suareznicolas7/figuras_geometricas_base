@@ -3,7 +3,7 @@ package com.endes.figuras;
 /**
  * Representa un cuadrado como una figura geométrica.
  * 
- * @author Equipo ENDES
+ * @author Francisco Valencia
  * @version 2.0
  */
 public class Cuadrado extends FiguraGeometrica {
