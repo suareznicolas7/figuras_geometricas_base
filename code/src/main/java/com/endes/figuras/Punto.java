@@ -1,5 +1,6 @@
 package com.endes.figuras;
 
+
 public class Punto extends FiguraGeometrica {
     
     private double x;
@@ -47,4 +48,7 @@ public class Punto extends FiguraGeometrica {
     public double perimetro() {
         return 0; 
     }
+
+
+
 }
