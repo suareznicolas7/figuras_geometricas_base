@@ -4,7 +4,12 @@ public class Cuadrado extends FiguraGeometrica {
       
     private double lado;    
 
-   
+   /**
+    * 
+    * @param nombre
+    * @param color 
+    * @param lado
+    */
     public Cuadrado(String nombre, String color, double lado) {
         super(nombre, color);  
         this.lado = lado;
@@ -16,6 +21,9 @@ public class Cuadrado extends FiguraGeometrica {
         return lado * lado;
     }
 
+    /**
+     * 
+     */
     @Override
     public double perimetro() {
        

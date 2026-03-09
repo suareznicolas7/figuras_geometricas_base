@@ -7,11 +7,7 @@ package com.endes.figuras;
  * 
  * Implementa {@link Comparable} para proporcionar un orden natural basado en el área.
  * 
-<<<<<<< HEAD
- * @author Nicolas Suarez Paiva.
-=======
- * @author Ortega
->>>>>>> origin/feature-punto
+ * @author NSP
  * @version 1.0
  * @since 1.8 
  */
